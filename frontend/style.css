@@ -1,0 +1,67 @@
+/* =========================
+   MetricMind 
+========================= */
+
+.stApp{
+    background-color:#0F172A;
+    color:white;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid #374151;
+}
+
+/* Text */
+h1,h2,h3,h4,h5,h6,p,label{
+    color:white !important;
+}
+
+/* Metric Cards */
+.metric-card{
+    background:#1E293B;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    margin-bottom:15px;
+}
+
+/* Chart Cards */
+.chart-card{
+    background:#1E293B;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    margin-bottom:20px;
+}
+
+/* Buttons */
+.stButton>button{
+    background:#2563EB;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+/* Select Boxes */
+.stSelectbox{
+    color:white;
+}
+
+/* Download Button */
+.stDownloadButton>button{
+    background:#059669;
+    color:white;
+    border-radius:10px;
+}
+
+/* Divider */
+hr{
+    border:1px solid #374151;
+}
