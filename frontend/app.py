@@ -386,9 +386,9 @@ if st.button("🚀 Send"):
     with st.spinner("MetricMind is thinking..."):
 
         response = requests.get(
-            "http://127.0.0.1:8000/ask",
-            params={"question": question}
-        )
+    "https://metricmind-ai-business-intelligence.onrender.com/ask",
+    params={"question": question}
+)
 
         if response.status_code == 200:
 
