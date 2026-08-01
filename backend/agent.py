@@ -1,7 +1,7 @@
 import pandas as pd
 from semantic.metrics import metrics
 
-# Load the dataset
+# Load dataset
 df = pd.read_csv("data/sales.csv", encoding="latin1")
 
 
@@ -32,6 +32,8 @@ def ask_agent(question):
 if __name__ == "__main__":
     while True:
         question = input("Ask MetricMind: ")
+
         if question.lower() == "exit":
             break
+
         print(ask_agent(question))
